@@ -29,7 +29,7 @@ Command-line arguments can be passed in via CLI flags, for example:
 
 #### Configuration File
 
-You can place any necessary configuration in an `.grpcli` file in your home directory.
+You can place any necessary configuration in an `.grpclirc` file in your home directory.
 
 ```
 [config1]
