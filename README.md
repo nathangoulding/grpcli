@@ -111,6 +111,10 @@ createObject(CreateObjectRequest) {
 
 ### Versions
 
+#### 0.2.0
+
+- Fix bug to ensure that `_externalCallback` is a function.
+
 #### 0.1.0
 
 - Initial Release
