@@ -111,11 +111,7 @@ createObject(CreateObjectRequest) {
 
 ### Versions
 
-#### 0.4.0
-
-- Fix github URL issue
-
-#### 0.3.0
+#### 0.5.0
 
 - Rely on version of `stdrepl` that supports `wait.for`.
 
