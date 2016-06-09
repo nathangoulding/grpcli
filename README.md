@@ -111,9 +111,12 @@ createObject(CreateObjectRequest) {
 
 ### Versions
 
-#### 0.6.0
+#### 0.6.2
 
+- Add `quit` command
+- Fix reference to `grpcli.bnf`
 - Restructuring and code cleanup
+- Remove unused `wait`
 
 #### 0.1.0
 
