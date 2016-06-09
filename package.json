@@ -1,0 +1,43 @@
+{
+  "name": "grpcli",
+  "version": "0.1.0",
+  "description": "A CLI for interacting with gRPC servers.",
+  "main": "./lib/index.js",
+  "bin": {
+    "grpcli": "./bin/grpcli.js"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nathangoulding/grpcli.git"
+  },
+  "keywords": [
+    "grpc",
+    "grpcli",
+    "grpcc",
+    "grpc-cli"
+  ],
+  "author": "Nathan Goulding",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/nathangoulding/grpcli/issues"
+  },
+  "homepage": "https://github.com/nathangoulding/grpcli#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "bnf": "^0.1.2",
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "grpc": "^0.14.1",
+    "ip": "^1.1.3",
+    "prompt": "^1.0.0",
+    "rc": "^1.1.6",
+    "stdrepl": "^1.0.1",
+    "wait.for": "^0.6.6"
+  }
+}
