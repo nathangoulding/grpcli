@@ -37,7 +37,7 @@
     "ip": "^1.1.3",
     "prompt": "^1.0.0",
     "rc": "^1.1.6",
-    "stdrepl": "^1.0.1",
+    "github.com/nathangoulding/stdrepl": "^1.0.1",
     "wait.for": "^0.6.6"
   }
 }

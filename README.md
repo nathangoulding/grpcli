@@ -111,6 +111,10 @@ createObject(CreateObjectRequest) {
 
 ### Versions
 
+#### 0.3.0
+
+- Rely on version of `stdrepl` that supports `wait.for`.
+
 #### 0.2.0
 
 - Fix bug to ensure that `_externalCallback` is a function.
@@ -138,7 +142,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 ### Notes
 
-* The inspiration for `grpcli` was Neil Jagdish Patel's [https://github.com/njpatel/grpcc](grpcc).
+* The inspiration for `grpcli` was Neil Jagdish Patel's [grpcc](https://github.com/njpatel/grpcc).
 * This uses a basic context-free grammar located in grpcli.bnf
 
 ### Contact
