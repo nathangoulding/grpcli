@@ -24,7 +24,7 @@
 Command-line arguments can be passed in via CLI flags, for example:
 
 ```
-[user@host]# grpcc -f myservice.proto --ip=127.0.0.1 --port=3466
+[user@host]# grpcli -f myservice.proto --ip=127.0.0.1 --port=3466
 ```
 
 #### Configuration File
