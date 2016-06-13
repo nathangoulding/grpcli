@@ -1,6 +1,6 @@
 {
   "name": "grpcli",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": "A CLI for interacting with gRPC servers.",
   "main": "./lib/index.js",
   "bin": {

@@ -1,7 +1,7 @@
 <syntax> ::= <expression> | <expression> <_crlf> <syntax>
 <expression> ::= <section> | <section> <space> <action> | <section> <space> <action> <space> <extra>
 <extra> ::= <word> | <word> <space> <extra>
-<section> ::= "rpc" | "request" | "response" | "quit" | "q" | "help" | "?"
+<section> ::= "rpc" | "message" | "quit" | "q" | "help" | "?"
 <action> ::= "list" | "call" | "describe" | "help" | "-h" | "?"
 <space> ::= " " | " " <space>
 <word> ::= <character> | <character> <word>

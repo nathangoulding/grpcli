@@ -111,8 +111,9 @@ createObject(CreateObjectRequest) {
 
 ### Versions
 
-#### 0.6.2
+#### 0.6.3
 
+- Fix `message` command in `grpcli.bnf`
 - Add `quit` command
 - Fix reference to `grpcli.bnf`
 - Restructuring and code cleanup
