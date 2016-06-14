@@ -71,14 +71,14 @@ Service: MyService
 Host: 127.0.0.1
 Port: 8080
 Secure: Yes
-[insecure@127.0.0.1:8080]# rpc list
+[grpc+insecure://127.0.0.1:8080]# rpc list
 listObjects(ListObjectsRequest) {
   return ListObjectsResponse;
 }
 createObject(CreateObjectRequest) {
   return CreateObjectResponse;
 }
-[insecure@127.0.0.1:8080]# rpc call listObjects {"offset":0,"limit":10}
+[grpc+insecure://127.0.0.1:8080]# rpc call listObjects {"offset":0,"limit":10}
 {
   "objects": {
     "objects": []
