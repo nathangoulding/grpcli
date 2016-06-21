@@ -1,6 +1,6 @@
 {
   "name": "grpcli",
-  "version": "0.6.4",
+  "version": "0.7.1",
   "description": "A CLI for interacting with gRPC servers.",
   "main": "./lib/index.js",
   "bin": {
@@ -37,7 +37,6 @@
     "ip": "^1.1.3",
     "prompt": "^1.0.0",
     "rc": "^1.1.6",
-    "stdrepl": "http://github.com/nathangoulding/stdrepl",
     "wait.for": "^0.6.6"
   }
 }
