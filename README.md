@@ -114,7 +114,7 @@ createObject(CreateObjectRequest) {
 #### 0.7.1
 
 - Fixes issue with installing `grpcli`
-- Implementat REPL internally
+- Implement REPL internally
 
 #### 0.6.4
 
