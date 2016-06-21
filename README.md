@@ -111,8 +111,9 @@ createObject(CreateObjectRequest) {
 
 ### Versions
 
-#### 0.7.1
+#### 0.7.3
 
+- Remove unnecessary harmony
 - Fixes issue with installing `grpcli`
 - Implement REPL internally
 
