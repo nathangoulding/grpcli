@@ -111,8 +111,9 @@ createObject(CreateObjectRequest) {
 
 ### Versions
 
-#### 0.6.3
+#### 0.6.4
 
+- Better error display
 - Fix `message` command in `grpcli.bnf`
 - Add `quit` command
 - Fix reference to `grpcli.bnf`
