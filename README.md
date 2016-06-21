@@ -111,6 +111,11 @@ createObject(CreateObjectRequest) {
 
 ### Versions
 
+#### 0.7.4
+
+- Add support for `.grpcli_history` file
+- Proper error message for missing `.grpclirc` config file
+
 #### 0.7.3
 
 - Remove unnecessary harmony
