@@ -20,11 +20,11 @@ program
 		'  will override what is configured in the .grpcli config file.')
 	.option('-f, --file <file>', 'Absolute or relative path to the protobuf file\n' +
 		'                       containing the gRPC service')
-	.option('--ip <ip>', 'IP address of the gRPC service to connect to', null, '8080')
-	.option('--port <port>', 'Port of the gRPC service to connect to', null, '127.0.0.1')
+	.option('--ip <ip>', 'IP address of the gRPC service to connect to', '127.0.0.1')
+	.option('--port <port>', 'Port of the gRPC service to connect to', '8080')
 	.option('-d, --dir [directory]', 'Absolute or relative path to the directory\n' +
 		'                       where protobuf files should be loaded from')
-	.option('-s, --service [name]', 'Name of the gRPC service to connect to')
+	.option('-s, --serviceName [name]', 'Name of the gRPC service to connect to')
 	.option('-i, --insecure', 'Whether to connect insecurely', false)
 	.parse(process.argv);
 
@@ -104,7 +104,7 @@ try {
 		},
 		host: host,
 		port: port,
-		service: (program.service || config.service),
+		serviceName: (program.serviceName || config.serviceName),
 		insecure: (program.insecure || config.insecure),
 	});
 } catch (e) {
