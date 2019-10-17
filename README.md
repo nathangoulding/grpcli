@@ -111,6 +111,10 @@ createObject(CreateObjectRequest) {
 
 ### Versions
 
+#### 0.8.0
+
+- Add support for proto3
+
 #### 0.7.5
 
 - Update grpc dependency to ^1.1.1 (@jab)
