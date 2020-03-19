@@ -111,6 +111,10 @@ createObject(CreateObjectRequest) {
 
 ### Versions
 
+#### 0.8.1
+
+- Bugfix: [@arieljake](https://github.com/arieljake) prefer ip and port in config before program defaults, [#10](https://github.com/nathangoulding/grpcli/pull/10)
+
 #### 0.8.0
 
 - Add support for proto3
