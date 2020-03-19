@@ -86,12 +86,12 @@ if (!fs.existsSync(root + '/' + file)) {
 	fatal('Error: '.red + 'Could not find .proto file at ' + root + '/' + file);
 }
 
-var host = program.ip || config.ip;
+var host = config.ip || program.ip;
 if (!ip.isV4Format(host) && !ip.isV6Format(host)) {
 	fatal('Error: '.red + 'Invalid IP address: ' + host);
 }
 
-var port = program.port || config.port;
+var port = config.port || program.port;
 if (!port.match(/^[0-9]{1,5}$/)) {
 	fatal('Error: '.red + 'Invalid port: ' + port);
 }
